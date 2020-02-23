@@ -1,0 +1,28 @@
+{
+    "name": "wll/hyperf-upload",
+    "type": "library",
+	"description": "php-bcrypt",
+    "require": {
+        "php": ">=7.0"
+    },
+	"keywords":["hyperf","upload"],
+    "license":"MIT",
+    "authors": [
+        {
+            "name": "gg22mm",
+            "email": "gg22mm@qq.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Wll\\HyperfUpload\\": "src"
+		}
+	},
+	"extra": {
+        "hyperf": {
+            "config": "Wll\\HyperfUpload\\ConfigProvider"
+        }
+	},
+		
+    "minimum-stability": "dev"
+}
