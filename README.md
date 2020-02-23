@@ -22,7 +22,7 @@ config/autoload/dependencies.php
 	//Wll\HyperfUpload\Service\FileStoreInterface::class => Wll\HyperfUpload\Service\AliyunFileStoreService::class,//阿里oss 
 	//Wll\HyperfUpload\Service\FileStoreInterface::class => Wll\HyperfUpload\Service\QiniuFileStoreService::class,//七牛oss 	
 ],
-
+```
 
 4、 开始使用 - 授权控制器中写
 ```bash
@@ -56,4 +56,4 @@ use Wll\HyperfUpload\Service\FileStoreInterface;
    	
 }
 
-
+```
