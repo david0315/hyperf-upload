@@ -18,7 +18,7 @@ composer require aliyuncs/oss-sdk-php
 bin/hyperf.php vendor:publish hyperf-upload
 ```
 
-3、 开始使用 - 授权控制器中写
+3、 绑定使用什么上传方式 
 ```bash
 config/autoload/dependencies.php
 修改绑定
@@ -29,7 +29,7 @@ config/autoload/dependencies.php
 ],
 ```
 
-4、 开始使用 - 授权控制器中写
+4、 开始使用 
 ```bash
 
 use Hyperf\Utils\ApplicationContext;
