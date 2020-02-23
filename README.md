@@ -1,5 +1,5 @@
 # hyperf-upload
-hyperf-upload 是hyperf框架文件上传包,可本地传，可oss上传，显示,删除。 目前支持阿里oss 与 七牛oss。 也看了这位兄弟的: https://gitee.com/lyxxxh/filestore 用不起来。所以撸了一个
+hyperf-upload 是hyperf框架文件上传包,可本地传，可oss上传，显示,删除。 目前支持阿里oss 与 七牛oss。 也看了这位兄弟的: https://gitee.com/lyxxxh/filestore 用不起来。所以撸了一个。后台可以改成用任务方式异步一下。
 
 ## 基本使用
 
