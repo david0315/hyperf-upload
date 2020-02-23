@@ -1,7 +1,7 @@
 {
     "name": "wll/hyperf-upload",
     "type": "library",
-	"description": "php-bcrypt",
+	"description": "hyperf-upload",
     "require": {
         "php": ">=7.0"
     },

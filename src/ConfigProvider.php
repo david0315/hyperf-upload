@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Wll\Hash;
+namespace Wll\HyperfUpload;
 
 class ConfigProvider
 {
