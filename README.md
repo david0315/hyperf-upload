@@ -8,7 +8,6 @@ hyperf-upload 是hyperf框架文件上传包,可本地传，可oss上传，显�
 composer require wll/hyperf-upload
 
 //如果要用到oss上传可选择安装
-composer require qiniu/php-sdk
 composer require aliyuncs/oss-sdk-php
 
 ```
