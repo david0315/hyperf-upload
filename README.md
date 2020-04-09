@@ -23,9 +23,7 @@ bin/hyperf.php vendor:publish hyperf-upload
 config/autoload/dependencies.php
 修改绑定
 'dependencies' => [
-	Wll\HyperfUpload\Service\FileStoreInterface::class =>  Wll\HyperfUpload\Service\LocalFileStoreService::class,//默认使用本地上传
-	//Wll\HyperfUpload\Service\FileStoreInterface::class => Wll\HyperfUpload\Service\AliyunFileStoreService::class,//阿里oss 
-	//Wll\HyperfUpload\Service\FileStoreInterface::class => Wll\HyperfUpload\Service\QiniuFileStoreService::class,//七牛oss 	
+	Wll\HyperfUpload\Service\FileStoreInterface::class => Wll\HyperfUpload\Service\AliyunFileStoreService::class,//阿里oss 
 ],
 ```
 
